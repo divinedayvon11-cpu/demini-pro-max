@@ -19,8 +19,8 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, CallbackQueryHandler
 
 # CONFIG
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+BOT_TOKEN = os.getenv("BOT_TOKEN") or "8610383664:AAGf0y-CVXoB8SgxDmdbtpcRfL7H2FwXQYo"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY") or "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"
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 ADMIN_ID = os.getenv("ADMIN_ID")
 
